@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -58,7 +59,10 @@ public class BaseClass {
 		if(browserName.contains("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
-			driver.set(new ChromeDriver()); 
+			ChromeOptions ch = new ChromeOptions();
+			ch.addArguments("Headless");
+			ch.addArguments("window-size=1980,1080");
+			driver.set(new ChromeDriver(ch)); 
 			Log.info("Chrome driver is set");
 		}
 		else if(browserName.contains("Firefox"))
