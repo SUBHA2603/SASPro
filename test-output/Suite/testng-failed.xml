@@ -15,6 +15,16 @@
           <include name="intializeDriver"/>
         </methods>
       </class> <!-- com.mystore.TestCases.LoginTest -->
+      <class name="com.mystore.TestCases.SearchResultTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loadconfig"/>
+          <include name="noProductTest"/>
+          <include name="validProductTest"/>
+          <include name="intializeDriver"/>
+          <include name="disposeDriver"/>
+        </methods>
+      </class> <!-- com.mystore.TestCases.SearchResultTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

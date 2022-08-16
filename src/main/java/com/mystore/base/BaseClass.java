@@ -51,9 +51,9 @@ public class BaseClass {
 		return driver.get();		
 	}
 	
-	public void launchApp() {
+	public void launchApp(String browserName) {
 		
-		browserName = prop.getProperty("browser");
+		//browserName = prop.getProperty("browser");
 		
 		if(browserName.contains("chrome"))
 		{

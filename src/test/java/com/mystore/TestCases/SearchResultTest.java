@@ -3,6 +3,7 @@ package com.mystore.TestCases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
@@ -14,18 +15,18 @@ public class SearchResultTest extends BaseClass {
 	HomePage home;
 	SearchPage search;
 	
-	
-	@BeforeMethod
-	public void intializeDriver() {
-		launchApp();
+	@Parameters("browser")
+	@BeforeMethod(groups= {"Smoke", "Sanity", "Regression"})
+	public void intializeDriver(String browser) {
+		launchApp(browser);
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups= {"Smoke", "Sanity", "Regression"})
 	public void disposeDriver() {
 		getDriver().quit();
 	}
 	
-	@Test
+	@Test(groups= {"Sanity"})
 	public void noProductTest() {
 		Log.startTestCase("\"noProductTest\"");
 		
@@ -40,7 +41,7 @@ public class SearchResultTest extends BaseClass {
 		
 	}
 	
-	@Test
+	@Test(groups= {"Smoke", "Sanity"})
 	public void validProductTest() {
 		Log.startTestCase("\"validProdcutTest\"");
 		
