@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mystore.utilities.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test_Smoke(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mystore.TestCases.LoginTest">
+        <methods>
+          <include name="verifySignIn"/>
+          <include name="disposeDriver"/>
+          <include name="intializeDriver"/>
+        </methods>
+      </class> <!-- com.mystore.TestCases.LoginTest -->
+      <class name="com.mystore.TestCases.SearchResultTest">
+        <methods>
+          <include name="validProductTest"/>
+          <include name="intializeDriver"/>
+          <include name="disposeDriver"/>
+        </methods>
+      </class> <!-- com.mystore.TestCases.SearchResultTest -->
+    </classes>
+  </test> <!-- Test_Smoke(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

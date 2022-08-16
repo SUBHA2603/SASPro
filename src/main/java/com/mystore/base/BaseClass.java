@@ -29,7 +29,7 @@ public class BaseClass {
 	
 	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 	
-	@BeforeSuite
+	@BeforeSuite(groups= {"Smoke", "Sanity", "Regression"})
 	public void loadconfig() throws IOException
 	{
 		ExtentManager.setExtent();
@@ -79,7 +79,7 @@ public class BaseClass {
 		getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
 	}
 	
-	@AfterSuite
+	@AfterSuite(groups= {"Smoke", "Sanity", "Regression"})
 	public void afterSuite() {
 		ExtentManager.endReport();
 	}

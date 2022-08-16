@@ -19,8 +19,7 @@ public class ExtentManager {
 	
 	public static void setExtent() throws IOException {
 		
-		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		htmlReporter= new ExtentSparkReporter("C:\\Users\\amita\\Desktop\\Sunny\\Workspace\\SASTest\\test-output\\ExtentReport\\MyReport" +"_"+ dateName+".html");
+		htmlReporter= new ExtentSparkReporter("C:\\Users\\amita\\Desktop\\Sunny\\Workspace\\SASTest\\test-output\\ExtentReport\\MyReport.html");
 		htmlReporter.loadXMLConfig("C:\\Users\\amita\\Desktop\\Sunny\\Workspace\\SASTest\\extent-config.xml");
 
 		

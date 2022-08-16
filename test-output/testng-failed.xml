@@ -4,13 +4,19 @@
   <listeners>
     <listener class-name="com.mystore.utilities.ListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Smoke(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.mystore.TestCases.LoginTest">
         <methods>
           <include name="afterSuite"/>
           <include name="loadconfig"/>
-          <include name="verifySignIn" invocation-numbers="0 1"/>
+          <include name="verifySignIn"/>
           <include name="disposeDriver"/>
           <include name="intializeDriver"/>
         </methods>
@@ -19,12 +25,11 @@
         <methods>
           <include name="afterSuite"/>
           <include name="loadconfig"/>
-          <include name="noProductTest"/>
           <include name="validProductTest"/>
           <include name="intializeDriver"/>
           <include name="disposeDriver"/>
         </methods>
       </class> <!-- com.mystore.TestCases.SearchResultTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Smoke(failed) -->
 </suite> <!-- Failed suite [Suite] -->
