@@ -33,7 +33,7 @@ public class SearchResultTest extends BaseClass {
 		home.enterText("kurta");
 		search = home.searchProd();
 		String actualMsg = search.actualTitle();
-		String expMsg = "No results were found for your search \"Payjama\"";
+		String expMsg = "No results were found for your search \"kurta\"";
 		Assert.assertEquals(actualMsg, expMsg);		
 		
 		Log.endTestCase("\"noProductTest\"");
