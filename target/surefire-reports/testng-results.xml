@@ -2,20 +2,20 @@
 <testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-15T10:48:13 IST" name="Suite" finished-at="2022-08-15T10:49:33 IST" duration-ms="79343">
+  <suite started-at="2022-08-16T12:33:42 IST" name="Suite" finished-at="2022-08-16T12:34:27 IST" duration-ms="44285">
     <groups>
     </groups>
-    <test started-at="2022-08-15T10:48:13 IST" name="Test" finished-at="2022-08-15T10:49:33 IST" duration-ms="79343">
+    <test started-at="2022-08-16T12:33:42 IST" name="Test" finished-at="2022-08-16T12:34:27 IST" duration-ms="44285">
       <class name="com.mystore.TestCases.LoginTest">
-        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-15T10:48:46 IST" name="intializeDriver" finished-at="2022-08-15T10:48:59 IST" duration-ms="12171" status="PASS">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-16T12:34:03 IST" name="intializeDriver" finished-at="2022-08-16T12:34:09 IST" duration-ms="6465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="verifySignIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-15T10:48:59 IST" name="verifySignIn" data-provider="credentials" finished-at="2022-08-15T10:49:04 IST" duration-ms="5032" status="PASS">
+        <test-method signature="verifySignIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-16T12:34:09 IST" name="verifySignIn" data-provider="credentials" finished-at="2022-08-16T12:34:14 IST" duration-ms="4835" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dd@dd.com]]>
+                <![CDATA[dd@dd12.com]]>
               </value>
             </param>
             <param index="1">
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignIn -->
-        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-15T10:49:04 IST" name="disposeDriver" finished-at="2022-08-15T10:49:04 IST" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-16T12:34:14 IST" name="disposeDriver" finished-at="2022-08-16T12:34:15 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disposeDriver -->
-        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-15T10:49:04 IST" name="intializeDriver" finished-at="2022-08-15T10:49:12 IST" duration-ms="7872" status="PASS">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-16T12:34:15 IST" name="intializeDriver" finished-at="2022-08-16T12:34:21 IST" duration-ms="6396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="verifySignIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-15T10:49:12 IST" name="verifySignIn" data-provider="credentials" finished-at="2022-08-15T10:49:31 IST" duration-ms="19408" status="PASS">
+        <test-method signature="verifySignIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-16T12:34:21 IST" name="verifySignIn" data-provider="credentials" finished-at="2022-08-16T12:34:26 IST" duration-ms="5371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,41 +61,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignIn -->
-        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-15T10:49:31 IST" name="disposeDriver" finished-at="2022-08-15T10:49:33 IST" duration-ms="1453" status="PASS">
+        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.LoginTest@48e4374]" started-at="2022-08-16T12:34:26 IST" name="disposeDriver" finished-at="2022-08-16T12:34:27 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disposeDriver -->
       </class> <!-- com.mystore.TestCases.LoginTest -->
       <class name="com.mystore.TestCases.SearchResultTest">
-        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:13 IST" name="loadconfig" finished-at="2022-08-15T10:48:13 IST" duration-ms="680" status="PASS">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:33:42 IST" name="loadconfig" finished-at="2022-08-16T12:33:42 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadconfig -->
-        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:14 IST" name="intializeDriver" finished-at="2022-08-15T10:48:25 IST" duration-ms="11172" status="PASS">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:33:42 IST" name="intializeDriver" finished-at="2022-08-16T12:33:52 IST" duration-ms="9904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="noProductTest()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:25 IST" name="noProductTest" finished-at="2022-08-15T10:48:29 IST" duration-ms="4376" status="PASS">
+        <test-method signature="noProductTest()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:33:52 IST" name="noProductTest" finished-at="2022-08-16T12:33:54 IST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noProductTest -->
-        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:29 IST" name="disposeDriver" finished-at="2022-08-15T10:48:30 IST" duration-ms="541" status="PASS">
+        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:33:54 IST" name="disposeDriver" finished-at="2022-08-16T12:33:55 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disposeDriver -->
-        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:30 IST" name="intializeDriver" finished-at="2022-08-15T10:48:42 IST" duration-ms="12524" status="PASS">
+        <test-method is-config="true" signature="intializeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:33:55 IST" name="intializeDriver" finished-at="2022-08-16T12:34:01 IST" duration-ms="6162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeDriver -->
-        <test-method signature="validProductTest()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:42 IST" name="validProductTest" finished-at="2022-08-15T10:48:46 IST" duration-ms="3659" status="PASS">
+        <test-method signature="validProductTest()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:34:01 IST" name="validProductTest" finished-at="2022-08-16T12:34:03 IST" duration-ms="1869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validProductTest -->
-        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:48:46 IST" name="disposeDriver" finished-at="2022-08-15T10:48:46 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="disposeDriver()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:34:03 IST" name="disposeDriver" finished-at="2022-08-16T12:34:03 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disposeDriver -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-15T10:49:33 IST" name="afterSuite" finished-at="2022-08-15T10:49:34 IST" duration-ms="988" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.TestCases.SearchResultTest@76908cc0]" started-at="2022-08-16T12:34:27 IST" name="afterSuite" finished-at="2022-08-16T12:34:27 IST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
